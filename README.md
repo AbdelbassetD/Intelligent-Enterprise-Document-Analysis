@@ -18,7 +18,7 @@ The goal of this project is to build an **autonomous, multimodal RAG platform** 
 ## 🎬 Video Demo
 https://app.screencastify.com/watch/ah4PxTeRmtaVq2yPGHlm?checkOrg=07383e82-2c0e-47a2-9722-27ac14f92324
 <video width="720" controls>
-  <source src="https://raw.githubusercontent.com/AbdelbassetD/Intelligent-Enterprise-Document-Analysis/main/Video_Demo.mp4" type="video/mp4">
+  <source src="Video_Demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
