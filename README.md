@@ -16,8 +16,11 @@ The goal of this project is to build an **autonomous, multimodal RAG platform** 
 - **Deployment target:** CLI + REST microservice for enterprise analytics
 
 ## 🎬 Video Demo
+https://github.com/user-attachments/assets/f87dfb58-cda5-47b7-95b2-2ff01a563acb
 
-<iframe src="https://drive.google.com/file/d/1bjVXAKwQswK916BJ8x5f1ir5-BUEJkRu/preview" width="640" height="480" allowfullscreen></iframe>
+
+
+
 
 <!-- ## 🚧 Current Status
 - [x] Initial architecture draft  
