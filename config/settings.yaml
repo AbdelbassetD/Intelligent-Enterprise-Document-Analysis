@@ -1,0 +1,41 @@
+# Application Configuration
+# This YAML file provides default configuration values that can be overridden by environment variables
+
+app:
+  name: intelligent-enterprise-document-analysis
+  version: 0.1.0
+  environment: development
+  debug: false
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  log_file: logs/app.log
+
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  embedding_model: openai
+  retrieval_k: 5
+  min_relevance_score: 0.5
+
+agents:
+  max_iterations: 10
+  timeout_seconds: 300
+  enable_memory: true
+
+vector_db:
+  provider: qdrant
+  url: http://localhost:6333
+  timeout: 30
+
+server:
+  host: 0.0.0.0
+  port: 8000
+  workers: 4
+  reload: true
+
+data_paths:
+  data_dir: ./data
+  models_dir: ./models
+  cache_dir: ./.cache
